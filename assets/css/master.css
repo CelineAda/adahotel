@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  background-image: url("../images/index/fond3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container{
+		margin-left: 200px;
+}
+}
+.corps{
+  display: inline-block;
+	margin-left: 200px;
+}
+
+h1{
+  text-align: center;
+  color: #1c3144;
+	text-shadow: 5px -2px 2px rgba(150, 150, 150, 1);
+	text-decoration: underline;
+	line-height: 2em;
+	font-size: 4em;
+}
+
+h2{
+  color: #1c3144;
+	line-height: ;
+	font-size: 2em;
+	line-height: 3em;
+}
+
+h3{
+  color: #1c3144;
+	font-size: 20px;
+}
+.boutonreserver a{
+  background-color: white;
+  color: #1c3144;
+  border-radius: 9px;
+  display: block;
+  width: 100px;
+  height:50px;
+  padding-top:15px;
+  padding-left: 15px;
+  margin-top: -20px;
+}
+
+.boutonreserver a:hover{
+  background: #1c3144;
+}
+
+.boutonreserver a, nav ul{
+display: flex;
+}
+
+nav ul{
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#1c3144;
+  color:white;
+  border-radius: 10px;
+  width: 800px;
+  margin-left: 200px;
+  padding-top: 20px;
+	text-decoration: none;
+}
+
+nav a{
+  color:white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background: #63ccca;
+	color:white;
+}
+
+.contact{
+  display:flex;
+  justify-content: space-around;
+}
+
+.facebook{
+  border radius:10px;
+  background-color:#1c3144;
+}
+
+.reseaux{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+  margin-left: 60px;
+}
+
+.photochambre{
+  margin-left: 120px;
+  justify-content: space-around;
+}
+
+input[type=submit1]{
+	background: #1c3144;
+	width:100px;
+	height:40px;
+	color:white;
+	-moz-border-radius-topleft: 23px;
+	-webkit-border-top-left-radius: 23px;
+	 border-top-left-radius: 23px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-bottomright: 22px;
+	-webkit-border-bottom-right-radius: 22px;
+	border-bottom-right-radius: 22px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
