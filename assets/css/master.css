@@ -42,6 +42,17 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+footer{
+	background-color:#1c3144;
+  color:white;
+  border-radius: 10px;
+  width: 800px;
+	margin-top: 80px;
+	text-align: center;
+
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
