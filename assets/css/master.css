@@ -149,6 +149,12 @@ nav a:hover{
   justify-content: space-around;
 }
 
+.photoindex{
+	display:flex;
+	flex-direction: row;
+	display: inline-block;
+}
+
 input[type=submit1]{
 	background: #1c3144;
 	width:100px;
