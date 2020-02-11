@@ -153,6 +153,7 @@ nav a:hover{
 	display:flex;
 	flex-direction: row;
 	display: inline-block;
+	margin-left: 80px;
 }
 
 input[type=submit1]{
