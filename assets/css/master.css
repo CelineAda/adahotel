@@ -149,10 +149,7 @@ nav a:hover{
   justify-content: space-around;
 }
 
-.facebook{
-  border radius:10px;
-  background-color:#1c3144;
-}
+
 
 .reseaux{
   list-style-type: none;
@@ -173,9 +170,6 @@ nav a:hover{
 	flex-direction: row;
 	display: inline-block;
 	margin-left: 80px;
-}
-i{
-	font-size: 30px;
 }
 
 input[type=submit1]{
