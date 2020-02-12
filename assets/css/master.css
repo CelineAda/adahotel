@@ -166,6 +166,9 @@ nav a:hover{
 	display: inline-block;
 	margin-left: 80px;
 }
+i{
+	font-size: 30px;
+}
 
 input[type=submit1]{
 	background: #1c3144;
